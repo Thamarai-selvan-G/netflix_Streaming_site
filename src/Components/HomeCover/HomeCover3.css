@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+   body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Rubik", sans-serif;
+    }
+   
+   .whole {
+    height: 100%;
+    width: 100%;
+   }
+   
+   .sec9 {
+      height: 800px;
+      width: 100%;
+     }
+   
+   .homecover9 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+   
+   }
+   
+   .sec10{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    color: white;
+    
+   }
+   
+   .homecover10 {
+       height: 200px;
+       width: 600px;
+       display: flex;
+       align-items: flex-start;
+       justify-content: start;
+       flex-direction: column;
+   }
+   
+   .homecover11{
+       height: 50px;
+       width: 150px;
+       border-radius: 5px;
+       border: 2px solid white;
+       background-color: white;
+       color: black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: medium;
+       font-weight: bold;
+       gap: 10px;
+   }
+   
+   .play {
+       height: 18px;
+       width: 18px;
+   }
+   .info{
+       height: 25px;
+       width: 25px;
+   }
+   
+   .homecover12 {
+       height: 50px;
+       width: 150px;
+       border-radius: 5px;
+       border: 2px solid white;
+       background-color: white;
+       color: black;
+       opacity: 45%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: medium;
+       font-weight: bold;
+       gap: 10px;
+   
+   }
+   .sec11{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 20px;
+       margin-top: 20px;
+   }
+   .sec12{
+       height: 100%;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       flex-direction: column;
+       gap: 20px;
+   }
+   
+   
+   .B{
+       height: 300px;
+       width: 100%;
+       background-color: rgb(31, 31, 31);
+       color: white;
+       font-weight: lighter;
+       font-size: 15px;
+       gap: 20px;
+   }
+   .B h1 {
+       height: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+      
+   }
+   .Today{
+       height: 200px;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       margin-top: 20px;
+   }
+   .no1{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no1 h1{
+       font-size: 250px;   
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t1 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no2{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no2 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t2 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no3{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no3 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t3 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no4{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no4 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t4 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no5{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no5 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t5 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no6{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no6 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t6 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no7{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no7 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t7 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no8{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no8 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t8 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no9{
+       height: 200px;
+       width: 140px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no9 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 93px;
+   }
+   .t9 {
+       height: 180px;
+       width: 120px;
+       position: absolute;
+       text-align: center;
+   }
+   .no10{
+       height: 200px;
+       width: 400px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       border: none;
+   }
+   .no10 h1{
+       font-size: 250px;
+       position: relative;
+       text-align: center;
+       right: 155px;
+   }
+   .t10 {
+       height: 180px;
+       width: 120px;
+       position: absolute;  
+       text-align: center;
+   }

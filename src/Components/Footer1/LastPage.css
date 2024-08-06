@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HollNav{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.Head{
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aquamarine; */
+}
+.uppercase{
+    color: white;
+    font-size: 50px;
+}
+.Fullhead{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: aqua; */
+
+}
+.FrstQus{
+    width: 85%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* margin-top: 15px; */
+    border: 2px solid;
+    background-color: #2D2D2D;
+    /* background-color: blueviolet; */
+}
+.Question{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.tags{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon{
+    color: white;
+    font-size: 25px;
+}
+
+.Line{
+    width: 50%;
+    height: 15%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    /* background-color: burlywood; */
+}
+.hTag{
+    color: white;
+    font-size: 20px;
+}
+.id{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 10px; */
+    /* background-color: aqua; */
+}
+.emailId{
+    width: 50%;
+    height: 85%;
+    /* height: 45px; */
+    /* width: 40%; */
+    /* border: none; */
+    box-shadow: none;
+    border-radius: 5px;
+    line-height: 10px;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 400; 
+    /* font-family: "Playfair Display", serif; */
+    color: white;
+    background: transparent;
+}
+.btnId{
+    width: 40%;
+    height: 85%;
+    font-size: 20px;
+    font-weight: 600;
+    /* font-family: "Playfair Display", serif; */
+    color: white;
+    background-color:  #E50914;
+    border: none;
+    border-radius: 5px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.btnId:hover{
+    transition: 0.5 all;
+    background: scroll;
+    background-color: rgba(174, 172, 172, 0.493);
+}

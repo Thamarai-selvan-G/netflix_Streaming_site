@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pageparent{
+    width: 100%;
+    height: 120vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: tomato; */
+}
+.parentSpace{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: springgreen; */
+}
+.accounterMenu{
+    width: 25%;
+    height: 45%;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.backButton{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    height: 10%;
+    margin: 0 auto;
+    font-weight: 550;
+    /* background-color: blue; */
+}
+.backButton p{
+    color: #787878;
+}
+.sideMenuBar{
+    height: 80%;
+    width: 90%;
+    /* background-color: blue; */
+}
+.sideMenuBar ul{
+    height: 85%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(77, 71, 71);
+    /* background-color: blueviolet; */
+
+}
+.sideMenuBar li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 550;
+}
+.sideMenuBar li:hover{
+    color: black;
+}
+.sideMenuicon{
+    font-size: 25px;
+}
+.sideMenuicon:hover{
+    color: black;
+}
+.accountContentParent{
+    width: 65%;
+    height: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: chocolate; */
+}
+.memberShip{
+    width: 100%;
+    height: 36%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: crimson; */
+}
+.title{
+    font-size: 17px;
+}
+.title p{
+    font-weight: 550;
+    font-size: 14px;
+}
+.planInfo{
+    height: 80%;
+    width: 99%;
+    border: 1px solid #787878;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tag{
+    width: 30%;
+    padding: 4px;
+    background-color: rgb(52, 52, 226);
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.memberInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-left: 10px;
+}
+.memberInfo p{
+    color: #787878;
+}
+.gpayTag{
+    font-size: 26px;
+}
+.endTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #787878;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 97%;
+    padding-left: 10px;
+}
+.quickLinks{
+    width: 100%;
+    height: 63%;
+    gap: 10px;
+    /* background-color: yellow; */
+}
+.planTools{
+    height: 90%;
+    width: 99%;
+    border: 1px solid #787878;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: brown; */
+}
+.tool{
+    width: 97%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #787878;
+}
+.planToolsItems{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.planToolsItems p{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.sideEndMenuicon{
+    font-size: 25px;
+    color: #787878;
+}
+.planToolsEndItems{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.endTool{
+    height: 100%;
+    width: 98%;
+    margin: 0 auto;
+}
+.endTool p {
+    font-size: 17px;
+    font-weight: 600;
+}
+.theEnd{
+    width: 99%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #787878;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width : 1200px){
+    .parentSpace{
+        width: 90%;
+    }
+    .accounterMenu {
+        height: 25%;
+    }
+    .accountContentParent{
+        height: 45%;
+    }
+}

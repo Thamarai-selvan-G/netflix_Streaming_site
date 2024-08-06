@@ -1,0 +1,86 @@
+    .Footer{
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .Fulldiv{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        /* background-color: blueviolet; */
+    }
+    .div{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        /* margin: 0 auto; */
+        /* background-color: brown; */
+    }
+    .Firstdiv{
+        /* background-color: aqua; */
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        justify-content: space-evenly;
+
+    }
+
+    .qus{
+        width: 80%;
+        height: 15%;
+        /* background-color: cadetblue; */
+        display: flex;
+        align-items: center;
+    }
+
+    .h1{
+        font-size: 15px;
+        text-decoration: underline;
+        color: white;
+    }
+    .pTag{
+        font-size: 15px;
+        text-decoration: underline;
+        color: white;
+    }
+    .Given{
+        width: 20%;
+        height: 84%;
+        display: flex;
+        align-items: flex-start;
+        /* justify-content: center; */
+        flex-direction: column;
+        gap: 10px;
+        /* background-color: yellow; */
+    }
+    .Given1{
+        width: 25%;
+        height: 60%;
+        display: flex;
+        align-items: flex-start;
+        /* justify-content: center; */
+        flex-direction: column;
+        gap: 10px;
+        /* background-color: burlywood; */
+    }
+
+    .languages{
+        width: 25%;
+        height: 6%;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+    }
