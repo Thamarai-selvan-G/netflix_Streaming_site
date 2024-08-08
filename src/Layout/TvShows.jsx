@@ -17,13 +17,6 @@ const TvShows = () => {
       <HomeCover3 />
      
       <Slider1 />
-      <Slide />
-      <Slide2 />
-      <Slide3 />
-      <Slider2 />
-      <Slide />
-      <Slide2 />
-      <Slide3 />
       <Footer />
      
     </div>

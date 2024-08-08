@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.5) url(bgimg\ \(1\).jpg);
+    background-blend-mode: darken;   
+    font-family: sans-serif; 
+}
+.logo img{
+    width: 18%;
+    margin-left: 45px;
+}
+.container{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 1%;
+    width: 440px;
+    height: 590px;
+    background: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    border-radius: 7px;
+}
+.container h1{
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+input{
+    width: 320px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+.button1{
+    width: 320px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 1px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+p{
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);;
+}
+.button2{
+    width: 320px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 1px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 10px;
+    border-radius: 5px;
+}
+.FP:hover{
+   transition: 0.2s;
+   text-decoration: underline;
+}
+input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+}
+label{
+    color: rgb(125, 119, 119);
+}
+.signup{
+    position: absolute;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 55px;
+    color: rgb(125, 119, 119);
+}
+.content{
+    font-size: 11px;
+}
+.from{
+    border-radius: 10px;
+}

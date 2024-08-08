@@ -31,7 +31,7 @@ const Navbar = () => {
                 <img src={logo} alt="" />
                 <div className="menu">
 
-                    <Link className='menubar' to = {"/"} >  <p>Home</p> </Link>
+                    <Link className='menubar' to = {"/home"} >  <p>Home</p> </Link>
 
                     <Link className='menubar' to = {"/TvShows"}>   <p>TV Shows</p> </Link>
 
