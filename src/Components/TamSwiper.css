@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parentConrainer{
+    position: relative;
+}
+.thumpNile{
+    height: 175px;
+    width: 330px;
+}
+.movieContent{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    position: absolute;
+    top: 0;
+    
+}
+.movie{
+    width: 400px;
+    height: 200px;
+}
+.aboutMovie{
+    width: 100%;
+    height: 60%;
+    background-color:#181818 ;
+    color: white;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.aboutMovie::-webkit-scrollbar{
+    display: none;
+}
+.basicinfo{
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px dotted wheat;
+}
+.movieDes p{
+    text-align: start;
+}
+.close{
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    font-size: 26px;
+    color: rgb(199, 81, 81);
+}
