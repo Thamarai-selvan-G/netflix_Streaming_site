@@ -5,8 +5,8 @@ import { ImCancelCircle } from "react-icons/im";
 const TamSwiper = (props) => {
      
     let movieApiData = props.tamMovieData
-    console.log(movieApiData.map(val=>console.log(val)
-    ));
+    console.log(props)
+    // console.log(movieApiData.map(val=>console.log(val)));
     
     
 
@@ -19,13 +19,13 @@ const TamSwiper = (props) => {
                return( <div key={id} className='parentConrainer'>
                 <img src={value.thumpNile} alt=""  className='thumpNile' onClick={()=>setDisplay(!display)}/>
                    { display === true ?  
-                   <div className="movieContent">
+                   <div className="movieContent" >
                         <div className="movieVideo">
                             <video controls autoPlay muted loop src={movieVideo} className='movie'></video>
                         </div>
                         <div className="aboutMovie">
                             <div className='basicinfo'>
-                                <h2 className='movieName'> {value.movieNamme} </h2>
+                                <h2 className='movieName'> {value.movieName} </h2>
                                 <h4 className='movieYear'> {value.relesedYear} </h4>
                                 <h4 className='movieRating'> {value.rating} </h4>
                                 <h3 className='movieCensor'> {value.censor} </h3>
