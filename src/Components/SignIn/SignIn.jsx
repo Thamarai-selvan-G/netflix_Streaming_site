@@ -20,10 +20,12 @@ const SignIn = () => {
     }
     console.log(userData);
     
-    const checkuser = await axios.post("http://localhost:4000/vendor/login",userData)
+    const checkuser = await axios.post("https://netflixbackend-dysz.onrender.com/vendor/login",userData)
 
     if (!checkuser) {
+      alert('invalid password !!')
       return console.log("login error");
+      
     }
     return navigate("/home")
   }
