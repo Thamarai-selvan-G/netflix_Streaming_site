@@ -15,8 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
   width: 180px;
+  height: 150px;
 }
 
 .swiper-slide img {
@@ -46,4 +46,15 @@
 .swiper-wrapper{
   display: flex;
   align-items: center;
+  width: 310px;
+  height: 180px;
+}
+.swiper-slide-active{
+  width: 300px;
+}
+.swiper-slide{
+  width: 300px;
+}
+.swiper-slide-next{
+  width: 300px;
 }

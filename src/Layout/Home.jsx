@@ -20,6 +20,8 @@ import '../Components/TamCardSwiper/TamswiperComp.css';
 import { Pagination, Navigation } from 'swiper/modules';
 const Home = () => {
   const [apiData, setApiData] = useState([]);
+  const [display, setDisplay] = useState(false);
+  const [selectedMovie, setSelectedMovie] = useState(null);
 
   useEffect(() => {
     const apiCall = async () => {
@@ -33,9 +35,10 @@ const Home = () => {
 
   console.log(apiData);
 
-  // swiper section code's>>>>>>
-  const [swiperRef, setSwiperRef] = useState(null);
-
+  const handleSlideClick = (movie) => {
+    setSelectedMovie(movie);
+    setDisplay(true);
+  };
   return (
     <div>
       <Navbar />
@@ -52,19 +55,20 @@ const Home = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {
-          apiData.map((val)=>{
-            return (
-
-              <SwiperSlide>
-                <img src={val.thumpNile} alt={val.movieName} />
-              </SwiperSlide>
-
-            )
-          })
+       {
+          apiData.map((movie) => (
+            <SwiperSlide key={movie.id}>
+              <img 
+                id={movie.id} 
+                src={movie.thumpNile} 
+                alt={movie.movieName} 
+                onClick={() => handleSlideClick(movie)} 
+              />
+            </SwiperSlide>
+          ))
         }
-       
       </Swiper>
+      { display && <TamSwiper   tamMovieData={selectedMovie} onClose={() => setDisplay(false)} />}
 
       {/* <Footer /> */}
     </div>

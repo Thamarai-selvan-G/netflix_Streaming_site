@@ -27,7 +27,7 @@ const SignIn = () => {
       return console.log("login error");
       
     }
-    return navigate("/home")
+    return navigate('/home')
   }
 
   return (

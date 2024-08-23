@@ -4,7 +4,7 @@ import movieVideo from "../Assets/SampleVideos/sample.mp4"
 import { ImCancelCircle } from "react-icons/im";
 const TamSwiper = (props) => {
      
-    let movieApiData = props.tamMovieData
+    let  = props.tamMovieData
     console.log(props)
     // console.log(movieApiData.map(val=>console.log(val)));
     
